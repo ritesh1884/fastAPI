@@ -1,0 +1,10 @@
+| **Feature**              | **FASTAPI**                                   | **Django**                         | **Flask**                    |
+| ------------------------ | --------------------------------------------- | ---------------------------------- | ---------------------------- |
+| **Type of Framework**    | API-Focused framework                         | Full-stack framework               | Micro-framework              |
+| **Speed**                | Extremely fast (async)                        | Moderate                           | Slower (sync by default)     |
+| **Built-in Features**    | Automatic API docs, async support, validation | ORM, Auth, Admin Panel, Middleware | Minimal, requires extensions |
+| **Asynchronous Support** | Yes                                           | No                                 | No                           |
+| **API Documentation**    | Auto-generated (Swagger and ReDoc)            | No                                 | No                           |
+| **Type Hints Support**   | Strongly typed                                | Weakly typed                       | Weakly typed                 |
+| **Performance**          | Very fast (async I/O)                         | Moderate                           | Slower                       |
+| **Best For**             | High-performance APIs, microservices          | Full-stack apps with DB and UI     | Lightweight apps, REST APIs  |
