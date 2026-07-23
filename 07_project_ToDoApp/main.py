@@ -32,7 +32,7 @@ def get_todos():
 
 
 
-# get a single data based on id
+# get a single data based on idd
 @app.get("/todos/{todo_id}")
 def get_todo(todo_id:int):
     for todo in todos:
