@@ -16,7 +16,7 @@ app = FastAPI()
 #         "data": user
 #     }
 
-
+#*
 
 # nested model
 class Address(BaseModel):
