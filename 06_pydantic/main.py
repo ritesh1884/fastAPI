@@ -18,7 +18,7 @@ app = FastAPI()
 
 
 
-# nested model
+# nested model..
 class Address(BaseModel):
     city: str
     pincode: int
