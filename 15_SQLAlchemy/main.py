@@ -80,7 +80,7 @@ def update(todo_id:int, title:str,db:Session = Depends(get_db)):
           }
 
 
-# deleting the data
+# deleting the dataa
 @app.delete("/delete/{todo_id}")
 def delete(todo_id:int,db:Session = Depends(get_db) ):
      todo = db.query(Todo).filter(Todo.id == todo_id).first()
