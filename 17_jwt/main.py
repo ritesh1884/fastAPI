@@ -17,11 +17,11 @@ def create_token(data: dict):
     return token
 
 
-# login api 
+# login route.
 @app.post("/login")
 def login(username: str, password: str):
     if username != "john" or password != "password":
-        raise HTTPException(status_code=401, detail="Invalid credentials")
+        raise HTTPException(status_code=401, detail="Invalid Credentials")
 
     token = create_token({"sub": username}) 
 
